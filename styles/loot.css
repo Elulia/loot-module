@@ -1,0 +1,27 @@
+body {
+	font-family: sans-serif;
+}
+table{
+	border: 0;
+	border-collapse: collapse;
+}
+td, th {
+	padding: 3px;
+	text-align: center;
+}
+
+.Commun{
+background-color: #6080c4;
+}
+.Peu-commun{
+background-color: #60a020;
+}
+.Rare{
+background-color: #c04000;
+}
+.Très-rare{
+background-color: #e07f00;
+}
+.Rarissime{
+background-color: #e0be00;
+}

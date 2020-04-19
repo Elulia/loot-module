@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>loot</title>
+	<script type="text/javascript" src="../scripts/loot.js"></script>
+	<link rel="stylesheet" type="text/css" href="../styles/loot.css">
+</head>
+<body>
+	<select id="climats">
+		<option value="froid">Froid</option>
+		<option value="chaud">Chaud</option>
+		<option value="tempéré">Tempéré</option>
+	</select>
+	<select id="milieux">
+		<option value="forêts">Forêts</option>
+		<option value="plaines">Plaines</option>
+		<option value="lacs et rivières">Lacs et rivières</option>
+		<option value="plages">Plages</option>
+		<option value="grottes">Grottes</option>
+		<option value="montagnes">Montagnes</option>
+		<option value="marais">Marais</option>
+		<option value="mer">Mer</option>
+		<option value="déserts">Déserts</option>
+		<option value="volcans">Volcans</option>
+	</select>
+	<select id="objet">
+		<option value="fleur">Fleur</option>
+		<option value="métaux">Métaux</option>
+		<option value="minéraux">Minéraux</option>
+	</select>
+	<button onclick="generateDynamicTable()">
+		process
+	</button>
+
+	<table id="myItems">
+	</table>
+</body>
+</html>
