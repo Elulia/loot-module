@@ -11,5 +11,7 @@
   "styles":[
   	"styles/loot.css"
   ],
-  "download":"https://github.com/Elulia/loot-module"
+  "url": "https://github.com/Elulia/loot-module",
+  "manifest": "https://github.com/Elulia/loot-module/module.json",
+  "download": "https://github.com/Elulia/loot-module/archive/master.zip"
 }
